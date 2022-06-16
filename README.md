@@ -62,29 +62,6 @@ Q. Which coin had the highest positive score?
 
 A: Bitcoin has the highest Maximum Positive score of 0.187.
 
-### 2. Natural Language Processing ###
-
-Which model had the best balanced accuracy score?
-
-In my analysis,Easy Ensemble Classifier had the best balanced accuracy score:
-     Balanced Random Forest Classifier = 0.7871246640962729
-     Easy Ensemble Classifier = 0.9254565671948463
-     
-Which model had the best recall score?
-
-Easy Ensemble Classifier had the best recall score of 91% for the high risk and 94% for the low risk
-
-Which model had the best geometric mean score?
-
-Easy Ensemble Classifier had the best geometric mean score of 93% for the high risk and 93% for the low risk
-
-What are the top three features?
-
-'total_rec_prncp', 'total_rec_int' and 'total_pymnt_inv' were the top three features.
-
-
-### Conclusions ###
-Combination (Over and Under) Sampling using SMOTEEN algorithm performed best for resampling the data, while Easy Ensemble Classifier worked best for ensemble learning of the data.
 
 ## Contributors##
 
